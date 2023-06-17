@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.slider img {
+  margin-left: 54px;
+  z-index: 2;
+}
+.slider p {
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  z-index: 5;
+  color: white;
+}
+
+.polosa,
+#polosa {
+  position: absolute;
+  top: 10px;
+  width: 195px;
+  height: 415px;
+  background-color: black;
+  display: none;
+}
+
+#polosa {
+  display: block;
+  background-color: green;
+  z-index: -1;
+}/*# sourceMappingURL=main.css.map */
